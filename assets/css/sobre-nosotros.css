@@ -1,0 +1,55 @@
+.sobre__nosotros{
+    width: 100%;
+    background-color: white;
+}
+
+.titulo__sobre{
+    display: flex;
+    margin: 0%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 3.5% 0 2% 0;
+    justify-content: center;
+}
+
+.texto__sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-indent: 1rem;
+    font-size: 1.6rem;
+}
+
+.texto_1{
+    margin-left: 4rem;
+    width: 580px;
+}
+
+.texto_2{
+    margin-right: 3rem;
+    width: 580px;
+}
+
+@media screen and (max-width: 780px) {
+    .sobre__nosotros{
+        height: auto;
+    }
+
+    .titulo__sobre{
+        font-size: 1.4rem;
+        height: auto;
+        width: auto;
+        padding: 8% 8% 0 8%;
+    }
+
+    .texto__sobre{
+        flex-direction: column;
+        font-size: 1.2rem;
+    }
+
+    .texto_1, .texto_2{
+        padding: 6%;
+        width: auto;
+        margin: 0%;
+    }
+}

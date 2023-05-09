@@ -1,0 +1,62 @@
+.home {
+    width: 100%;
+    height: calc(100vh - 50px);
+    background: url(../../img/blue-sky.jpg) no-repeat center /cover;
+    display: flex;
+    -moz-box-shadow: 3px -170px 178px -143px rgba(0,0,0,1) inset;
+    -webkit-box-shadow: 3px -170px 178px -143px rgba(0,0,0,1) inset;
+    box-shadow: 3px -270px 178px -143px rgba(0,0,0,1) inset;
+}
+
+.titulo__home, .texto {
+    color: #fff;
+    font-size: 3.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    padding-left: 12%;
+    top: 15%;
+}
+
+.texto{
+    font-size: 2.5rem;
+    top: 25.8%;
+}
+
+.whatsapp__btn {
+    position: fixed;
+    margin-top: 40%;
+    margin-left: 92%;
+    width: 75px;
+    z-index: 1;
+}
+
+.whatsapp__logo{
+    width: 75%;
+}
+
+@media screen and (max-width: 780px) {
+    
+    
+    .titulo__home, .texto{
+        padding-top: 15%;
+        font-size: 1.4rem;
+        padding-left: 1rem;
+    }
+
+    .texto{
+        font-size: 1.2rem;
+        top: 20%;
+    }
+
+    .banner__back{
+        width: auto;
+        height: 550px;
+    }
+
+    .whatsapp__btn{
+        margin-top: 105%;
+        margin-left: 80%;
+        width: 65px;
+    }
+}

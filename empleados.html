@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html lang = "es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="es">
+        <title>King Empleados</title>
+        <link rel="icon" href="/img/kingscrown - copia.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/normalize.css">
+        <link rel="stylesheet" href="/assets/css/menu.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="./assets/css/css/base/base.css" />
+        <link rel="stylesheet" href="./assets/css/css/componentes/card.css" />
+        <link rel="stylesheet" href="./assets/css/css/componentes/inputs.css" />
+        <link rel="stylesheet" href="./assets/css/css/componentes/button.css" />
+        <link rel="stylesheet" href="./assets/css/css/registry_client.css" />
+        <link rel="stylesheet" href="./assets/css/css/cadastro_produto.css" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700;800;900&display=swap');
+        </style>
+
+    </head>
+
+    <body>
+        
+        <header class="cabecera">
+            
+            <img src="/img/KING-3.png" alt="Logo-Establecimiento-King-S.R.L." class="logo__cabecera">
+            
+            <nav class="menu">
+    
+                <ul class="menu__list">
+    
+                    <li class="menu__item">
+                        <a class="menu__link" href="index.html">Volver a Inicio</a>
+                    </li>
+
+                    <li class="menu__item">
+                        <a class="menu__link" href="empleados.html">Portal Empleados</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <main class="container flex flex--center flex--column">
+            <section class="cartao cadastro">
+            
+                <h1 class="card__title">Ingresar usuario y contraseña</h1>
+            
+                <form action="./error.html" class="flex flex--column">
+                
+                    <div class="input-container">
+                        <input name="name" id="name" class="input" type="text" placeholder="Usuario"/>
+                        <label class="input-label" for="name">Nombre de usuario</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+
+                    <div class="input-container registry__price-container">
+                        <input name="price" id="price" class="input" type="text" placeholder="Contraseña"/>
+                        <label class="input-label" for="price">Contraseña</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+
+                    <button class="button">Iniciar sesión</button>
+                
+                </form>
+            
+            </section>
+        
+        </main>
+
+    </body>
+
+</html>

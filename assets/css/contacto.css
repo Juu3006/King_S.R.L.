@@ -1,0 +1,87 @@
+li{
+    list-style: none;
+}
+
+.links_a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link_a_conacto{
+    padding: 5%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.contacto {
+    width: 100%;
+    background: url(../../img/atardecer3.png) no-repeat center /cover;
+    display: flex;
+}
+
+.info__contacto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 3% 0% 3% 7%;
+    font-size: 1.1rem;
+    width: 650px;
+}
+
+.info__transportes, .info__Calibracion, .info__redes{
+    padding-top: 1rem;
+}
+
+.redes__list{
+    display: flex;
+    flex-direction: row;
+}
+
+.red__social{
+    width: 45px;
+    margin: 0px 15px 0px 5px;
+}
+
+.mapaContenido{
+    font-size: 1.1rem;
+    margin-top: 3rem;
+    margin-right: 6rem;
+    color: white;
+}
+
+.mapa{
+    width: 350px;
+}
+
+.afip__img{
+    padding-left: 50%;
+    width: 65px;
+}
+
+@media screen and (max-width: 780px) {
+    .contacto{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .list__contact{
+        padding: 5%;
+    }
+
+    .info__contacto{
+        font-size: 1rem;
+        width: auto;
+    }
+
+    .afip__img{
+        padding-top: 10%;
+        padding-left: 35%;
+        width: 100px;
+    }
+
+    .mapa{
+        width: 0px;
+        visibility: hidden;
+    }
+}
